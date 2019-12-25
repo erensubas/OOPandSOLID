@@ -17,6 +17,7 @@ namespace Observer1
             Console.ForegroundColor = this._color;
             Console.WriteLine($"I observer the new quantity value of {quantity}.");
             Console.ForegroundColor = ConsoleColor.White;
+
         }
     }
 }
