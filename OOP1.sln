@@ -15,9 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator2", "Decorator2\De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility1", "ChainOfResponsibility1\ChainOfResponsibility1.csproj", "{84AD18D4-47B7-4294-83E1-BEC577903F28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility2", "ChainOfResponsibility2\ChainOfResponsibility2.csproj", "{9A455F4E-2722-4CD3-97E8-12D103CF5E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility2", "ChainOfResponsibility2\ChainOfResponsibility2.csproj", "{9A455F4E-2722-4CD3-97E8-12D103CF5E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer1", "Observer1\Observer1.csproj", "{9F3CFD41-A4A8-421F-B858-0E0036D679D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer1", "Observer1\Observer1.csproj", "{9F3CFD41-A4A8-421F-B858-0E0036D679D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{471BA5BF-110F-4940-8F93-E760A2A03066}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
