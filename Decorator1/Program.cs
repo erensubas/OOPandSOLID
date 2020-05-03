@@ -17,6 +17,7 @@ namespace Decorator1
             NormalDecorator normalDecorator = new NormalDecorator(simpleMessage);
             ErrorDecorator errorDecorator = new ErrorDecorator(normalDecorator);
             errorDecorator.PrintMessage();
+            
      
 
             Console.ReadLine();
