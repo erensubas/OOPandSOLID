@@ -10,12 +10,12 @@ namespace ConsoleApp1
 
             PetCat cat = new PetCat("Clementine", new PetColor("Beyaz"));
             Fish fish = new Fish();
-            cat.Feed(fish);
-
-
             Kibble kibble = new Kibble();
+            cat.Feed(fish);
             cat.Feed(kibble);
+
             Console.WriteLine(cat.MyPet());
+
             PetFeeder.PetFeed<PetAnimal, IPetFood>(cat, fish);
             Console.WriteLine(cat.MyPet());
             Console.WriteLine(cat.Meow());
